@@ -146,8 +146,7 @@ public class CharacterInterface : MonoBehaviour
                     }
 
                     // Pass the final path to the character.
-                    character.SetPath(path);
-                    Debug.Log("path:"+path.Count);
+                    character.Path = path;
 
                     // Search is now over.
                     searching = false;
